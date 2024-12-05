@@ -4,15 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <title>Document</title>
+    <title>Meu diario de Viagens</title>
 </head>
 <body>
+<!-- Cabeçalho -->
+<header>
+    <h1>Meu Diário de Viagens</h1>
+    <nav>
+        <ul>
+            <li><a href="#japao">Japão</a></li>
+            <li><a href="#brasil">Brasil</a></li>
+            <li><a href="#europa">Europa</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <h1>Home Page</h1>
-    <p>josé Hipólito</p>
-    <p>João Hipólito</p>
+ <!-- Seção Japão -->
+ <section id="japao" class="section">
+    <h2>Explorando o Japão</h2>
+    <p>Minha jornada pelo Japão, incluindo visitas a Tóquio, Kyoto e Hiroshima. Cada canto desse país oferece uma experiência única.</p>
+    <div class="gallery">
+        <img src="Japão1.jpg" alt="Imagem do Japão">
+        <img src="Japão2.JPG" alt="Imagem do Japão">
+        <img src="Japão3.jpg" alt="Imagem do Japão">
+    </div>
+</section>
 
-    <p>trabalho que vale 50% da nota </p>
-    
+<!-- secçao brasil-->
+ <section id="brasil" class="section">
+<h2>Descubra as praias do brasil</h2>
+<p>Uma aventura pelas praias paradisiacas do brasil,desde o litoral do Nordeste até as águas cristalinas do Sudeste.</p>
+<div class="gallery">
+    <img src="brasil1.jpg" alt="Praia do Brasil">
+    <img src="brasil2.jpg" alt="Praia do Brasil">
+    <img src="brasil3.jpg" alt="Praia do Brasil">
+</div>
+ </section>
+
+ <!-- secçao europa-->
+ <section id="europa" class="section">
+    <h2>Cultura e História na Europa</h2>
+    <p>Conhecendo os marcos históricos e culturais da Europa, como o Louvre, Coliseu, e muito mais.</p>
+    <div class="gallery">
+        <img src="Europa1.jpg" alt="Europa">
+        <img src="Europa2.jpg" alt="Europa">
+        <img src="Europa3.jpg" alt="Europa">
+    </div>
+</section>
+<!-- Seção Contato -->
+<section id="contato" class="section">
+    <h2>Entre em contato</h2>
+    <form action="#">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<!-- Rodapé -->
+<footer>
+    <p>© 2024 Meu Diário de Viagens</p>
+    <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+    </div>
+</footer>
 </body>
-</html>
+</html>     
