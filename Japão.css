@@ -1,0 +1,38 @@
+/* Japão.css*/
+body {
+    background-color: #f0f0f5;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.section {
+    padding: 20px;
+}
+
+.gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff6347;
+    color: white;
+}
