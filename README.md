@@ -6,8 +6,7 @@ Repositorio do projeto da disciplina de TI
 josé Hipólito
 João Hipólito
 
-## link 
-<<<<<<< HEAD
-=======
+## link
 https://josehipolito.github.io/projeto_TI/project.html
->>>>>>> 05145b97d8e8fbf4d46327116ce4ff0be507f719
+
+![qr code para o site ] [file:///C:/Users/josep/Desktop/TWDM/TI/Projeto/projeto_TI/qr_code_project_TI.png ]
